@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
+<section class="content">
+  <h2>{{ page.title }}</h2>
+  {{ page.date | date: "%b %d, %Y" }} <br>
 
-<h2>{{ page.title }}</h2>
-{{ page.tags | array_to_sentence_string }}
-<br>
-{{ content }}
+  <section class="postcontent">
+    {{ content }}
+  </section>
+  <section class="posttags">
+    Filed under {{ page.tags | array_to_sentence_string }}.
+  </section>
+</section>
