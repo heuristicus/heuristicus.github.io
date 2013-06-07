@@ -1,4 +1,0 @@
-michalstaniaszek.com
-====================
-
-Personal website

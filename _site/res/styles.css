@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "LinuxLibertine";
+    src: url("/res/font/LinLibertine_DRah.ttf") format("truetype");
+}
+
+#header {
+    
+}
+
+body {
+    font: 20px/1.5 LinuxLibertine, verdana, helvetica-neue, helvetica, arial, san-serif;
+    font-weight: normal;
+    background: #666666;
+    color: #111111;
+    padding-top: 10%;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ececec;
+    text-decoration: underline;
+}
+
+#main {
+    width: 80%;
+    margin: 0 auto;
+    background: #eeeeee;
+}
+
+header {
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+h1 {
+    font: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+
+p {
+    text-align: right;
+}
+
+h2 {
+    font: 25px;
+    font-weight: normal;
+    color: #ececec;
+    margin: 0;
+}
+
+nav ul, ul.entries {
+    list-style-type: none;
+}
+
+nav li a {
+    float: right;
+    margin: 5px;
+}
+
+.content {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+ul.entries li {
+    position: relative;
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ececec;
+    width: 600px;
+}
+
+ul.entries img {
+    width: 600px;
+}
+
+ul.entries li h3 {
+    position: absolute;
+    bottom: -18px;
+    left: 17px;
+    font-size: 2em;
+}
+
+ul.entries a {
+    color: #ececec;
+}
+ul.entries a:hover {
+    color: #fff;
+}
+
+footer {
+    font-size: 0.65em;
+    text-align: right;
+}
