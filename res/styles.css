@@ -119,15 +119,19 @@ footer {
 
 @media screen and (min-width: 0px) {
   body { zoom: 0.6; }
+  #main { width: 100%; }
 }
 @media screen and (min-width: 480px) {
   body { zoom: 0.8; }
+  #main { width: 100%; }
 }
 @media screen and (min-width: 680px) {
   body { zoom: 0.9; }
+  #main { width: 80%; }
 }
 @media screen and (min-width: 780px) {
   body { zoom: 1; }
+  #main { width: 80%; }
 }
 @media screen and (min-width: 900px) { body { zoom: 1.0000000000; }
 @media screen and (min-width: 901px) { body { zoom: 1.0011111111; }
