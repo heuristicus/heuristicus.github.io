@@ -59,12 +59,15 @@ generated using a very nice static site generator,
 <a href="http://jekyllrb.com">Jekyll</a>, which was recommended to me quite a while ago by
 <a href="http://jeremiahvia.com">Jeremiah Via</a>. Jekyll transforms plain text files
 (mostly HTML and <a href="http://daringfireball.net/projects/markdown/">markdown</a>) into
-a mess of HTML which hopefully looks just as you wanted it to. Messing around
-with HTML and CSS hasn&rsquo;t been particularly fun. Having not used either since
-secondary school, it&rsquo;s taken me a while to work out how to control the things
-that I want to control. Some things are still confusing, but hopefully once I
-get things right once the next time I need to do something similar I&rsquo;ll know
-basically what to do.</p>
+a mess of HTML which hopefully looks just as you wanted it to. Working with HTML
+and CSS hasn&rsquo;t been particularly fun. Having not used either since secondary
+school, it&rsquo;s taken me a while to work out how to control the things that I want
+to control. Some things are still confusing, but hopefully once I get things
+right once the next time I need to do something similar I&rsquo;ll know basically what
+to do. I set up the basic parts required for Jekyll by following
+<a href="http://net.tutsplus.com/tutorials/other/building-static-sites-with-jekyll/">this tutorial</a>
+and some of the information on the official page, and after that it was mostly
+tweaking the CSS.</p>
 
 <p>Since you&rsquo;re reading this, you can see another thing that Jekyll does&mdash;it
 creates pages for blog posts from either markdown or HTML files. Being one of
@@ -106,30 +109,68 @@ site, and you&rsquo;re done. Here&rsquo;s the code which generates the <a href="
 done with the <a href="http://pygments.org/">Pygments</a> syntax highlighter, which Jekyll
 can be set up to run whenever the site is built. It converts code in special
 Liquid tags into a mass of HTML elements, which are then coloured with CSS
-generated from one of the themes which comes with Pygments.</p>
+generated from one of the themes which comes with Pygments. Being unimaginative
+as usual, I&rsquo;m using the
+<a href="http://www.levien.com/type/myfonts/inconsolata.html">Inconsolata</a> font (which
+you may or may not be able to see, depending on your browser), which
+I&rsquo;ve been using in Emacs and IDEs since I discovered it a couple of years
+ago. I&rsquo;ve looked around for other programming fonts, but haven&rsquo;t yet found any
+which are better&mdash;if you know a good one, let me know! You might find some
+other good-looking fonts for coding
+<a href="http://hivelogic.com/articles/top-10-programming-fonts">here</a> and
+<a href="http://www.slant.co/topics/67/~what-are-the-best-programming-fonts">here</a>.</p>
 
-<p>Here&rsquo;s some code.</p>
+<p>I also couldn&rsquo;t help but add something which can display proper mathematical
+equations. Leaving aside whether I&rsquo;ll actually use the feature, it&rsquo;s definitely
+something which I could not be without. The site uses the
+<a href="http://www.mathjax.org/">MathJax</a> display engine to render equations. You can
+right click to retrieve the <code>$\LaTeX$</code> code, zoom, and do various other useful
+things. Try it out on the equations below.</p>
 
-<div class="highlight"><pre><code class="bash">   <span class="nv">start</span><span class="o">=</span>900;
-   <span class="nv">end</span><span class="o">=</span>2000;
-   <span class="nv">base</span><span class="o">=</span>900; <span class="c"># at zoom:1</span>
-   <span class="nv">step</span><span class="o">=</span>1;
-   <span class="c"># Create a sequence of sizes to loop over</span>
-   <span class="nv">sizes</span><span class="o">=</span><span class="sb">`</span><span class="nb">eval echo</span> <span class="o">{</span><span class="nv">$start</span>..<span class="nv">$end</span>..<span class="nv">$step</span><span class="o">}</span><span class="sb">`</span>
-   <span class="k">for </span>width in <span class="k">${</span><span class="nv">sizes</span><span class="k">}</span>; <span class="k">do</span>
-<span class="k">       </span><span class="nv">result</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="s2">&quot;scale=10;$width/$base&quot;</span> | bc<span class="sb">`</span>
-       <span class="nb">echo</span> <span class="s2">&quot;@media screen and (min-width: &quot;</span><span class="nv">$width</span><span class="s2">&quot;px) { body { zoom: $result; } }&quot;</span>
-   <span class="k">done</span>
-</code></pre></div>
+<p><em>Bayes' Theorem</em>
+<code>\[P(A\mid B)=\frac{P(B\mid A)P(A)}{P(B)}\]</code></p>
 
+<p><em>Q-learning</em>
+<code>\[Q_{t+1}(s_t,a_t)=Q_t(s_t,a_t)+\alpha(s_t,a_t)\cdot\left[R_{t_1}+\gamma\max_aQ_t(s_{t+1},a)-Q_t(s_t,a_t)\right]\]</code></p>
 
-<p><code>$$P(Y_k=x)=\frac{\lambda^xe^{-\lambda}}{x!}$$</code></p>
+<p><em>Jacobian matrix</em>
+<code>\begin{align}
+    J=\begin{bmatrix}
+    \frac{\partial{F_1}}{\partial{x_1}}&amp;\dots &amp;\frac{\partial{F_1}}{\partial{x_n}}\\
+    \vdots &amp; \ddots &amp; \vdots\\
+    \frac{\partial{F_m}}{\partial{x_1}}&amp;\dots &amp;\frac{\partial{F_m}}{\partial{x_n}}\\
+    \end{bmatrix}
+ \end{align}</code></p>
 
-<p><code>\[\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
-\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
-\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0
-\end{vmatrix}\]</code></p>
+<p>It took a little while to get this stuff all rendering correctly. Javascript is
+required, and by default doesn&rsquo;t work with markdown because when the files are
+parsed markdown converts some characters to HTML, which means that MathJax no
+longer picks up the equations correctly. I managed to get things working thanks
+to these
+<a href="http://checkmyworking.com/2012/01/how-to-get-beautifully-typeset-maths-on-your-blog/">two</a>
+<a href="http://doswa.com/2011/07/20/mathjax-in-markdown.html">posts</a>. Having sorted
+that, I was getting orange text instead of the black I expected. Turns out
+MathJax uses the same CSS styles as some of those in the Pygments CSS file used
+to do code highlighting. Thankfully, the first google
+<a href="https://groups.google.com/forum/?fromgroups#!topic/mathjax-users/FgCBLdT15nM">result</a>
+solved the problem by just adding some more CSS to override the definitions.</p>
+
+<p>The design for the site, simple as it is, was inspired by
+<a href="http://rsms.me/">Rasmus Andersson</a>&rsquo;s homepage, which is one of the pages
+featured on the Jekyll site. The
+<a href="https://github.com/rsms/rsms.github.com">Github repository</a> for his page has
+all of the CSS and HTML he uses, so after poring over that for a couple of days
+I finally managed to work out how things pieced together and implement something
+vaguely similar. I&rsquo;m using the fantastic
+<a href="http://www.linuxlibertine.org/">Linux Libertine</a> fonts as the standard font,
+which I use for almost everything now (including
+<a href="/projects/gravlens/">my dissertation</a>). The site should look reasonably good no
+matter what device it&rsquo;s viewed on, because I&rsquo;m arranging everything based on
+proportions of the height and width. The font also changes size depending on the
+width of the window you&rsquo;re viewing the site in (the site updates automatically
+if you&rsquo;re in Firefox or IE, but you&rsquo;ll need to refresh to see the effect in
+Chrome), which should make things much less ugly even when you&rsquo;re looking at it
+in a tiny window (stop it).</p>
 
   </section>
   <section class="posttags">
@@ -137,6 +178,12 @@ generated from one of the themes which comes with Pygments.</p>
   </section>
   </div>
 </section>
+
+
+<section class="comments">
+  
+</section>
+
 
     </div>
 
