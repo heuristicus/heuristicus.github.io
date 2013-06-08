@@ -1,0 +1,148 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>  Welcome |  Michal Staniaszek </title>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      MathJax.Hub.Config({
+      tex2jax: {
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+      });
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
+                       displayMath: [['\\[','\\]'], ['$$','$$']]}});
+      MathJax.Hub.Queue(function() {
+      // Fix <code> tags after MathJax finishes running. This is a
+      // hack to overcome a shortcoming of Markdown. Discussion at
+      // https://github.com/mojombo/jekyll/issues/199
+      var all = MathJax.Hub.getAllJax(), i;
+      for(i = 0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+      });
+      MathJax.Hub.Config({
+          "HTML-CSS": {
+            styles: {
+              ".MathJax .mo, .MathJax .mi": {color: "black ! important"}
+            }
+          }
+        });
+    </script>
+    <link rel="stylesheet" href="/res/styles.css" />
+    <link rel="stylesheet" href="/res/pygments.css" />
+  </head>
+  <body>
+  <header>
+    <h1><a href="/">Michal Staniaszek</a></h1>
+      <ul class="navigation">
+        <li><a href="/blog/">Blog</a></li>
+	<li><a href="/about/">About me</a></li>
+	<li><a href="/contact/">Contact</a></li>
+	<li><a href="/archive/">Archive</a></li>
+	<li><a href="/projects/">Projects</a></li>
+      </ul>
+  </header>
+
+    <div id="main">
+      <section class="content">
+  <div class="fullpost">
+  <h2>Welcome</h2>
+  Jun 08, 2013 <br>
+
+  <section class="postcontent">
+    <p>Welcome to my new website. I kept telling myself that I needed to make myself a
+one, but never managed to get round to it. Until now. Having finished exams I
+decided that either I&rsquo;d do it now, or it would have to wait another two years at
+least.</p>
+
+<p>With that, let&rsquo;s go into some more detail on exactly what I&rsquo;ve done. The site is
+generated using a very nice static site generator,
+<a href="http://jekyllrb.com">Jekyll</a>, which was recommended to me quite a while ago by
+<a href="http://jeremiahvia.com">Jeremiah Via</a>. Jekyll transforms plain text files
+(mostly HTML and <a href="http://daringfireball.net/projects/markdown/">markdown</a>) into
+a mess of HTML which hopefully looks just as you wanted it to. Messing around
+with HTML and CSS hasn&rsquo;t been particularly fun. Having not used either since
+secondary school, it&rsquo;s taken me a while to work out how to control the things
+that I want to control. Some things are still confusing, but hopefully once I
+get things right once the next time I need to do something similar I&rsquo;ll know
+basically what to do.</p>
+
+<p>Since you&rsquo;re reading this, you can see another thing that Jekyll does&mdash;it
+creates pages for blog posts from either markdown or HTML files. Being one of
+those people who uses <a href="http://www.gnu.org/software/emacs/">Emacs</a> for
+everything, this is a Good Thing. I can write posts directly into Emacs without
+having to access some web interface, which means that I can use all the packages
+I&rsquo;ve collected in the past three years. Jekyll uses the
+<a href="http://liquidmarkup.org/">Liquid</a> library, which frees you from having to write
+HTML for every post on the site. Just work out the structure you want to have
+each post follow, throw it into a for loop over all the posts on your
+site, and you&rsquo;re done. Here&rsquo;s the code which generates the <a href="/blog">blog</a>.</p>
+
+<div class="highlight"><pre><code class="html">    <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;content&quot;</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;posts&quot;</span><span class="nt">&gt;</span>
+    
+        {% for post in site.posts offset: 0 limit: 5 %}
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;fullpost&quot;</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;h2&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ post.url }}&quot;</span><span class="nt">&gt;</span>{{ post.title }}<span class="nt">&lt;/a&gt;&lt;/h2&gt;</span>
+          {{ post.date | date: &quot;%b %d, %Y&quot; }}
+    
+          <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;postcontent&quot;</span><span class="nt">&gt;</span>
+            {{ post.content }}
+          <span class="nt">&lt;/section&gt;</span>
+          
+          <span class="nt">&lt;section</span> <span class="na">class=</span><span class="s">&quot;posttags&quot;</span><span class="nt">&gt;</span>
+            Filed under {{ post.tags | array_to_sentence_string }}.
+          <span class="nt">&lt;/section&gt;</span>
+        <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;breaker&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+        {% endfor %}
+      <span class="nt">&lt;/div&gt;</span>
+   <span class="nt">&lt;/section&gt;</span>
+</code></pre></div>
+
+
+<p>Ignoring my terrible HTML, it&rsquo;s rather neat.</p>
+
+<p>You may have noticed the pretty code highlighting in the snippet above. This is
+done with the <a href="http://pygments.org/">Pygments</a> syntax highlighter, which Jekyll
+can be set up to run whenever the site is built. It converts code in special
+Liquid tags into a mass of HTML elements, which are then coloured with CSS
+generated from one of the themes which comes with Pygments.</p>
+
+<p>Here&rsquo;s some code.</p>
+
+<div class="highlight"><pre><code class="bash">   <span class="nv">start</span><span class="o">=</span>900;
+   <span class="nv">end</span><span class="o">=</span>2000;
+   <span class="nv">base</span><span class="o">=</span>900; <span class="c"># at zoom:1</span>
+   <span class="nv">step</span><span class="o">=</span>1;
+   <span class="c"># Create a sequence of sizes to loop over</span>
+   <span class="nv">sizes</span><span class="o">=</span><span class="sb">`</span><span class="nb">eval echo</span> <span class="o">{</span><span class="nv">$start</span>..<span class="nv">$end</span>..<span class="nv">$step</span><span class="o">}</span><span class="sb">`</span>
+   <span class="k">for </span>width in <span class="k">${</span><span class="nv">sizes</span><span class="k">}</span>; <span class="k">do</span>
+<span class="k">       </span><span class="nv">result</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="s2">&quot;scale=10;$width/$base&quot;</span> | bc<span class="sb">`</span>
+       <span class="nb">echo</span> <span class="s2">&quot;@media screen and (min-width: &quot;</span><span class="nv">$width</span><span class="s2">&quot;px) { body { zoom: $result; } }&quot;</span>
+   <span class="k">done</span>
+</code></pre></div>
+
+
+<p><code>$$P(Y_k=x)=\frac{\lambda^xe^{-\lambda}}{x!}$$</code></p>
+
+<p><code>\[\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} &amp; \mathbf{j} &amp; \mathbf{k} \\
+\frac{\partial X}{\partial u} &amp;  \frac{\partial Y}{\partial u} &amp; 0 \\
+\frac{\partial X}{\partial v} &amp;  \frac{\partial Y}{\partial v} &amp; 0
+\end{vmatrix}\]</code></p>
+
+  </section>
+  <section class="posttags">
+    Filed under code and latex.
+  </section>
+  </div>
+</section>
+
+    </div>
+
+    <footer>
+      <p>Powered by <a href="http://www.jekyllrb.com">Jekyll</a></p>
+    </footer>
+
+  </body>
+</html>
