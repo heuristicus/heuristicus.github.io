@@ -6,6 +6,7 @@ title: Blog
   <div id="posts">
 
     {% for post in site.posts offset: 0 limit: 5 %}
+    <div class="fullpost">
     <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.date | date: "%b %d, %Y" }}
 
@@ -16,7 +17,8 @@ title: Blog
     <section class="posttags">
       Filed under {{ post.tags | array_to_sentence_string }}.
     </section>
-    {% endfor %}
+    </div>
+    <div class="breaker"></div>
+  {% endfor %}
   </div>
-  <div class="breaker"></div>
 </section>

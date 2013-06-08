@@ -2,6 +2,7 @@
 layout: default
 ---
 <section class="content">
+  <div class="fullpost">
   <h2>{{ page.title }}</h2>
   {{ page.date | date: "%b %d, %Y" }} <br>
 
@@ -11,4 +12,5 @@ layout: default
   <section class="posttags">
     Filed under {{ page.tags | array_to_sentence_string }}.
   </section>
+  </div>
 </section>

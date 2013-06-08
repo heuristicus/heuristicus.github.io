@@ -2,7 +2,7 @@
 # screen used to view content is of different sizes. Modification of
 # https://github.com/rsms/rsms.github.com/blob/master/_scripts/gen-css-size-levels.js
 start=900;
-end=2000;
+end=1600;
 base=900; # at zoom:1
 step=1;
 
@@ -10,5 +10,5 @@ step=1;
 sizes=`eval echo {$start..$end..$step}`
 for width in ${sizes}; do
     result=`echo "scale=10;$width/$base" | bc`
-    echo "@media screen and (min-width: "$width"px) { body { zoom: $result; }"
+    echo "@media screen and (min-width: "$width"px) { body { zoom: $result; } }"
 done

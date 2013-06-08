@@ -3,28 +3,58 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>  Blog |  Michal Staniaszek </title>
     <link rel="stylesheet" href="/res/styles.css" />
+    <link rel="stylesheet" href="/res/pygments.css" />
   </head>
   <body>
   <header>
-    <h1>Michal Staniaszek</h1>
-    <nav class="navigation">
-      <ul>
-        <li><a href="/">Home</a></li>
+    <h1><a href="/">Michal Staniaszek</a></h1>
+      <ul class="navigation">
         <li><a href="/blog/">Blog</a></li>
 	<li><a href="/about/">About me</a></li>
 	<li><a href="/contact/">Contact</a></li>
 	<li><a href="/archive/">Archive</a></li>
 	<li><a href="/projects/">Projects</a></li>
       </ul>
-    </nav>
   </header>
 
     <div id="main">
-      
       <section class="content">
   <div id="posts">
 
     
+    <div class="fullpost">
+    <h2><a href="/2013/06/code-test.html">Code & LaTeX</a></h2>
+    Jun 08, 2013
+
+    <section class="postcontent">
+    <p>Here&rsquo;s some code.</p>
+
+<div class="highlight"><pre><code class="bash">   <span class="nv">start</span><span class="o">=</span>900;
+   <span class="nv">end</span><span class="o">=</span>2000;
+   <span class="nv">base</span><span class="o">=</span>900; <span class="c"># at zoom:1</span>
+   <span class="nv">step</span><span class="o">=</span>1;
+   <span class="c"># Create a sequence of sizes to loop over</span>
+   <span class="nv">sizes</span><span class="o">=</span><span class="sb">`</span><span class="nb">eval echo</span> <span class="o">{</span><span class="nv">$start</span>..<span class="nv">$end</span>..<span class="nv">$step</span><span class="o">}</span><span class="sb">`</span>
+   <span class="k">for </span>width in <span class="k">${</span><span class="nv">sizes</span><span class="k">}</span>; <span class="k">do</span>
+<span class="k">       </span><span class="nv">result</span><span class="o">=</span><span class="sb">`</span><span class="nb">echo</span> <span class="s2">&quot;scale=10;$width/$base&quot;</span> | bc<span class="sb">`</span>
+       <span class="nb">echo</span> <span class="s2">&quot;@media screen and (min-width: &quot;</span><span class="nv">$width</span><span class="s2">&quot;px) { body { zoom: $result; } }&quot;</span>
+   <span class="k">done</span>
+</code></pre></div>
+
+
+<p>And also some stuff in latex</p>
+
+<p>$P(Y_k=x)=\frac{\lambda<sup>xe</sup>^{-\lambda}}{x!}$</p>
+
+    </section>
+    
+    <section class="posttags">
+      Filed under .
+    </section>
+    </div>
+    <div class="breaker"></div>
+  
+    <div class="fullpost">
     <h2><a href="/2012/02/its-been-a-while.html">It's been a while...</a></h2>
     Feb 24, 2012
 
@@ -46,14 +76,17 @@
     <section class="posttags">
       Filed under .
     </section>
-    
+    </div>
+    <div class="breaker"></div>
+  
+    <div class="fullpost">
     <h2><a href="/2011/12/some-pictures.html">Some Pictures</a></h2>
     Dec 13, 2011
 
     <section class="postcontent">
     <p>Here you go (click to embiggen). More <a href="http://www.flickr.com/photos/mstaniaszek/">here</a>.</p>
 
-<p><a href="http://www.flickr.com/photos/mstaniaszek/6503923743/"><img src="http://farm8.staticflickr.com/7001/6503923743_0af6039e87_b.jpg" alt="Caption" /></a></p>
+<p><a href="http://www.flickr.com/photos/mstaniaszek/6503923743/"><img src="http://farm8.staticflickr.com/7001/6503923743_0af6039e87_b.jpg" alt="lunar eclipse" /></a></p>
 
 <p><a href="http://www.flickr.com/photos/mstaniaszek/6503739961"><img src="http://farm8.staticflickr.com/7017/6503739961_45d9dfc655_b.jpg" alt="circumhorizontal arc" /></a></p>
 
@@ -64,7 +97,10 @@
     <section class="posttags">
       Filed under japan and photo.
     </section>
-    
+    </div>
+    <div class="breaker"></div>
+  
+    <div class="fullpost">
     <h2><a href="/2011/12/a-good-day.html">A Good Day</a></h2>
     Dec 13, 2011
 
@@ -86,7 +122,10 @@
     <section class="posttags">
       Filed under .
     </section>
-    
+    </div>
+    <div class="breaker"></div>
+  
+    <div class="fullpost">
     <h2><a href="/2011/12/some-imaginative-title.html">Some imaginative title</a></h2>
     Dec 11, 2011
 
@@ -104,33 +143,11 @@
     <section class="posttags">
       Filed under food, japan, and work.
     </section>
-    
-    <h2><a href="/2011/11/third-time-lucky.html">Third time lucky</a></h2>
-    Nov 29, 2011
-
-    <section class="postcontent">
-    <p>I have managed to secure a part time job, it seems.</p>
-
-<p>After being rejected from Uniqlo and Book Off, probably due to my lack of any proper Japanese qualifications, I decided to apply to Gyuukaku, a yakiniku (lit: cooked meat) place after looking around on the web for &ldquo;Foreigners OK&rdquo; jobs. The Japanese have little subtlety when it comes to xenophobia. It&rsquo;s a pretty big chain - over 1000 restaurants in Japan, and branches in the US, Taiwan, Hong Kong, Singapore and Indonesia.</p>
-
-<p>At any rate, I went to the shop after lessons had finished on Friday, and talked to the manager after lessons had finished for the day, and gave him some of my details, after which I was asked to come back on Monday for a proper interview (I didn&rsquo;t have my Japanese personal statement equivalent with me at the time). Returning on Monday, I was asked to fill in a sort of interview questionnaire which had questions like &ldquo;Give a good and bad point of your personality&rdquo; and &ldquo;What do you think it is necessary to do to satisfy customers&rdquo;. In Japanese, of course. I had no real problems thinking up answers, but writing them down in some sort of coherent way took a little bit of thought. After I&rsquo;d finished filling that in, the manager asked me a few questions, which I now can&rsquo;t remember, but I got the feeling that things went relatively well, since he asked me some stuff which wasn&rsquo;t really relevant to the job at all. I guess he might have been testing my Japanese ability.</p>
-
-<p>I left relatively satisfied, but still not convinced that I&rsquo;d actually managed to make a decent impression. He would call me on Tuesday afternoon with the results.</p>
-
-<p>Something must have gone right, since I got the call, and was told that they would like to employ me. Now all I have to do is buy some black shoes.</p>
-
-<p>Maybe the third time really is lucky! (I&rsquo;d like to see some data, though)</p>
-
-    </section>
-    
-    <section class="posttags">
-      Filed under food, japan, and work.
-    </section>
-    
+    </div>
+    <div class="breaker"></div>
+  
   </div>
-  <div class="breaker"></div>
 </section>
-
 
     </div>
 
