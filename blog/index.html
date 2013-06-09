@@ -2,14 +2,17 @@
 layout: default
 title: Blog
 ---
-<section class="content">
+<div class="content">
   <div id="posts">
 
     {% for post in site.posts offset: 0 limit: 5 %}
     <div class="fullpost">
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.date | date: "%b %d, %Y" }}
-
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <section class="postdate">
+      <hr>
+      {{ post.date | date: "%b %d, %Y" }}
+      <hr>
+    </section>
     <section class="postcontent">
     {{ post.content }}
     </section>
@@ -21,4 +24,4 @@ title: Blog
     <div class="breaker"></div>
   {% endfor %}
   </div>
-</section>
+</div>

@@ -5,8 +5,11 @@ comments: true
 <section class="content">
   <div class="fullpost">
   <h2>{{ page.title }}</h2>
-  {{ page.date | date: "%b %d, %Y" }} <br>
-
+  <section class="postdate">
+    <hr>
+    {{ page.date | date: "%b %d, %Y" }}
+    <hr>
+  </section>
   <section class="postcontent">
     {{ content }}
   </section>

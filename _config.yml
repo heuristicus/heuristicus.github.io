@@ -1,8 +1,8 @@
 ---
 permalink: /:year/:month/:title.html
+paginate: 5
+paginate_path: /blog/page:num
 pygments: true
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-safe: true
-lsi: false

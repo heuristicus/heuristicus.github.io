@@ -50,39 +50,8 @@ ul {
     padding: 0;
 }
 
-
 a {
     text-decoration: none;
-}
-
-#main {
-    width: 80%;
-    margin: 0 auto;
-    background: #eeeeee;
-}
-
-#main h2 a {
-    color: #000000;
-}
-
-#main h2 a:visited {
-    color: #000000;
-}
-
-#main h2 a:hover {
-    color: #000000;
-}
-
-#main a {
-    color: #1533ad;
-}
-
-#main a:visited {
-    color: #6f83d6;
-}
-
-#main a:hover {
-    color: #4965d6;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -91,17 +60,6 @@ h1,h2,h3,h4,h5,h6 {
     color:#111111;
     text-rendering: optimizelegibility;
     margin: 0;
-}
-
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-
-.MathJax {
-    color: #000000 !important;
-    font-size: 100%;
-}
-
-.MathJax span {
-    font-size: 100%;
 }
 
 h1, h2 { font-size: 200%; }
@@ -152,6 +110,63 @@ header ul.navigation li {
     list-style: none;
 }
 
+#main {
+    width: 80%;
+    margin: 0 auto;
+    background: #eeeeee;
+}
+
+#main h1 a {
+    color: #000000;
+}
+
+#main h1 a:visited {
+    color: #000000;
+}
+
+#main h1 a:hover {
+    color: #000000;
+}
+
+#main a {
+    color: #1533ad;
+}
+
+#main a:visited {
+    color: #6f83d6;
+}
+
+#main a:hover {
+    color: #4965d6;
+}
+
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+
+.MathJax {
+    color: #000000 !important;
+    font-size: 100%;
+}
+
+.MathJax span {
+    font-size: 100%;
+}
+
+.nonpost {
+    padding: 5%;
+}
+
+.postdate hr {
+    background-color: #cccccc;
+    height: 1px;
+    border: 0;
+    margin: 0 86% 0 -5.5%;
+}
+
+.postdate {
+    color: #aaaaaa;
+    font-size: 90%;
+}
+
 pre {
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -170,15 +185,10 @@ code {
 }
 
 .fullpost {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 5%;
 }
 
-.postcontent {
-}
 
-.posttags {
-}
 
 /* This is way too hacky! Please find a way to do it properly! */
 div.breaker {
@@ -187,13 +197,6 @@ div.breaker {
     padding-top: 5%;
     padding-bottom: 5%;
     margin: 0 0 0 -10%;
-}
-
-.content {
-    padding-top: 0%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 0%;
 }
 
 img {
@@ -212,8 +215,6 @@ p img {
     vertical-align: middle;
 }
 
-
-
 footer {
     font-size: 0.65em;
     text-align: center;
@@ -226,3 +227,4 @@ footer a {
 footer a:hover {
     color: #ffffff;
 }
+
