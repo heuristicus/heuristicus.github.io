@@ -16,7 +16,11 @@ title: Blog
     </div>
     
     <div class="posttags">
+      {% if post.tags == empty %}
+      No tags. 
+      {% else %}
       Filed under {{ post.tags | array_to_sentence_string }}.
+      {% endif %}
     </div>
   </section>
   <div class="breaker"></div>

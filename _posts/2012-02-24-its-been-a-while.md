@@ -1,7 +1,6 @@
 ---
 layout: post
 title: It's been a while...
-tags: []
 status: publish
 type: post
 published: true
