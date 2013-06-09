@@ -35,10 +35,10 @@
 
 body {
     font-size: 20px; /* fallback in case viewport resizing is not supported */
-    font: 2vw/1.5 LinuxLibertine, verdana, helvetica-neue, helvetica, arial, sans-serif;
+    font: 1.8vw/1.5 LinuxLibertine, verdana, helvetica-neue, helvetica, arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    background: #666666;
+    background: #777777;
     color: #111111;
     margin: 0;
     text-rendering: optimizelegibility;
@@ -47,6 +47,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a.active {
+    font-weight: bold;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -148,19 +152,27 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 }
 
 .nonpost {
-    padding: 5%;
+    padding: 8%;
 }
 
 .postdate hr {
     background-color: #cccccc;
     height: 1px;
     border: 0;
-    margin: 0 86% 0 -5.5%;
+    margin: 0 87% 0 -9.5%;
 }
 
 .postdate {
     color: #aaaaaa;
     font-size: 90%;
+}
+
+.postcontent p img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
 }
 
 pre {
@@ -176,40 +188,30 @@ code {
     font: 1.5vw/1.5 Inconsolata, monospace;
 }
 
+#about img {
+    height: auto;
+    width: 40%;
+    margin: 0 0 8% 8%;
+}
+
 .highlight {
     background: #dddddd;
     margin: 0 2% 0 2%;
 }
 
 .fullpost {
-    padding: 5%;
+    padding: 8%;
 }
 
 
 
 /* This is way too hacky! Please find a way to do it properly! */
 div.breaker {
-    width: 120%;
-    background: #666666;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin: 0 0 0 -10%;
-}
-
-img {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    vertical-align: middle;
-}
-
-p img {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    vertical-align: middle;
+    width: 100%;
+    background: #777777;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin: 0 0 0 0;
 }
 
 footer {

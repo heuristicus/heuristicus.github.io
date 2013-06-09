@@ -1,7 +1,24 @@
 ---
 layout: default
+title: Blog
 ---
-<div id="home" class="nonpost">
-  <h1> This is the homepage </h1>
-  hi.
+<div id="posts" class="content">
+  {% for post in site.posts offset: 0 limit: 5 %}
+  <section class="fullpost">
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="postdate">
+      <hr>
+      {{ post.date | date: "%b %d, %Y" }}
+      <hr>
+    </div>
+    <div class="postcontent">
+      {{ post.content }}
+    </div>
+    
+    <div class="posttags">
+      Filed under {{ post.tags | array_to_sentence_string }}.
+    </div>
+  </section>
+  <div class="breaker"></div>
+  {% endfor %}
 </div>
