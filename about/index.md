@@ -14,20 +14,19 @@ language. I currently speak English, Polish and Japanese fluently, and have
 basic knowledge of French, German and Swedish. I learn human languages for
 fun. I'm also fluent in C/C++, Java and Python. I learn machine languages
 whenever I need them.
-
-I like taking photographs of people and patterns
 		
 ## Where am I?
 You can find me at various places on the internet, including:
 
-- [Github](https://github.com/heuristicus) -- Almost all the code I've ever
+- [GitHub](https://github.com/heuristicus) -- Almost all the code I've ever
   written.
 - [Twitter](https://twitter.com/MStaniaszek) -- Rarely tweet, sometimes listen.
 - [Flickr](http://www.flickr.com/photos/mstaniaszek/) -- Some of my more
   presentable photography.
 - [Last.fm](http://www.last.fm/user/nitre) -- It doesn't count if you don't
   scrobble it.
-- [LinkedIn](http://www.linkedin.com/profile/view?id=236650527) -- 
+- [LinkedIn](http://www.linkedin.com/profile/view?id=236650527) -- For
+  work-related contact.
 
 ## Contact
 The best way to contact me is by email. If you're not a robot, then you
