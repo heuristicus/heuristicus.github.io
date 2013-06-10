@@ -3,7 +3,8 @@ layout: default
 title: Blog
 ---
 <div id="posts" class="content">
-  {% for post in site.posts offset: 0 limit: 5 %}
+  {% for post in site.posts offset: 0 limit: 10 %}
+  {% if post.type == "post" %}
   <section class="fullpost">
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <div class="postdate">
@@ -24,5 +25,6 @@ title: Blog
     </div>
   </section>
   <div class="breaker"></div>
+  {% endif %}
   {% endfor %}
 </div>

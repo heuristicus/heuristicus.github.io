@@ -45,6 +45,10 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+body.photo {
+    background: #777777;
+}
+
 a {
     text-decoration: none;
 }
@@ -140,6 +144,10 @@ header ul.navigation li {
     color: #4965d6;
 }
 
+#main.photo {
+    width: 100%;
+}
+
 code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
 
 .MathJax {
@@ -202,8 +210,6 @@ code {
 .fullpost {
     padding: 8%;
 }
-
-
 
 /* This is way too hacky! Please find a way to do it properly! */
 div.breaker {
