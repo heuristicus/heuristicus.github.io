@@ -2,6 +2,12 @@
 layout: default
 ---
 <div id="projects" class="nonpost">
-  <h1> Projects </h1>
-  Projects I've been involved with.
+  Some of the projects that I've been involved with. The links will take you to posts with more detailed information about each project.
+  {% for post in site.posts %}
+  {% if post.type == "project" %}
+  <p>{{ post.startdate }} to {{ post.enddate }} at {{ post.location }} <br>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  <p>
+  {% endif %}
+  {% endfor %}
 </div>
