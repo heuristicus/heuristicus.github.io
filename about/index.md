@@ -12,7 +12,7 @@ co-founded the
 spent my third year at Keio university in Tokyo, Japan, where I studied Japanese
 language. I currently speak English, Polish and Japanese fluently, and have
 basic knowledge of French, German and Swedish. I learn human languages for
-fun. I'm also fluent in C/C++, Java and Python. I learn machine languages
+fun. I'm also fluent in C, Java and Python. I learn machine languages
 whenever I need them.
 		
 ## Where am I?

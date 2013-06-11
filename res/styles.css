@@ -167,11 +167,15 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 }
 
 .nonpost {
-    padding: 8%;
+    padding: 5% 7%;
+}
+
+#photoindex.content {
+    padding: 4% 5%;
 }
 
 .fullpost {
-    padding: 7%;
+    padding: 5% 7%;
 }
 
 .postdate {
@@ -207,11 +211,9 @@ code {
     margin: 0 2% 0 2%;
 }
 
-#about img {
-    height: auto;
-    width: 40%;
-    max-height: 30%;
-    margin: 0 0 8% 8%;
+div#about.nonpost img {
+    max-width: 30%;
+    padding: 0 0 7% 7%;
 }
 
 div#photoindex {
@@ -224,6 +226,7 @@ div.cats {
 div.photocategory img {
     float: left;
     width: 29.2em;
+    min-height: 19.5em;
     padding: 1px;
 }
 
@@ -260,6 +263,7 @@ div#photo ul li {
 
 div#photo img {
     width: 25em;
+    min-height: 16.7em;
 }
 
 div.after {
@@ -293,7 +297,10 @@ span.cc {
     font: 1.3em creativecommons;
 }
 
-@media (min-width: 1250px) {
-  body { font-size: 1vw; }
-  code { font-size: 0.8vw; }
+
+@media (min-width: 1300px) {
+  body { font-size: 1.2em; }
+  code { font-size: 1em; }
+  #main { width: 50%; }
+  header { width: 50%; }
 }
