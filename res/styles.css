@@ -42,7 +42,7 @@
 
 body {
     font-size: 20px; /* fallback in case viewport resizing is not supported */
-    font: 1.8vw/1.5 LinuxLibertine, verdana, helvetica-neue, helvetica, arial, sans-serif;
+    font: 1.5vw/1.5 LinuxLibertine, verdana, helvetica-neue, helvetica, arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     background: #777777;
@@ -81,7 +81,7 @@ h6 { font-size: 110%; }
 header {
     width: 80%;
     height: 8em;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     position: relative;
 }
 
@@ -170,11 +170,8 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
     padding: 8%;
 }
 
-.postdate hr {
-    background-color: #cccccc;
-    height: 1px;
-    border: 0;
-    margin: 0 87% 0 -9.5%;
+.fullpost {
+    padding: 7%;
 }
 
 .postdate {
@@ -183,8 +180,10 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 }
 
 .postcontent img {
-    display: block;
-    width: 80%;
+    display: inline;
+    height: 30%;
+    width: auto;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
     vertical-align: middle;
@@ -200,13 +199,7 @@ pre {
 
 code {
     font-size: 16px; /* fallback in case viewport resizing is not supported */
-    font: 1.5vw/1.5 Inconsolata, monospace;
-}
-
-#about img {
-    height: auto;
-    width: 40%;
-    margin: 0 0 8% 8%;
+    font: 1.2vw/1.5 Inconsolata, monospace;
 }
 
 .highlight {
@@ -214,26 +207,27 @@ code {
     margin: 0 2% 0 2%;
 }
 
-.fullpost {
-    padding: 8%;
-}
-
-div#photo img {
-    max-height: 40%;
-    max-width: 100%;
+#about img {
+    height: auto;
+    width: 40%;
+    max-height: 30%;
+    margin: 0 0 8% 8%;
 }
 
 div#photoindex {
     padding: 5%;
 }
 
-div#photoindex div.photocategory h1 {
-    position: absolute;
-    font-size: 400%;
-    visibility: hidden;
-    margin: -12% 0 0 5%;
+div.cats {
 }
 
+div.photocategory img {
+    float: left;
+    width: 29.2em;
+    padding: 1px;
+}
+
+/*
 div#photoindex div.photocategory:hover a {
     opacity: 0.7;
 }
@@ -244,14 +238,41 @@ div#photoindex div.photocategory:hover h1 a {
 
 div#photoindex div.photocategory:hover h1 {
     visibility: visible;
+}*/
+
+div#photoindex div.photocategory img:hover {
+    opacity: 0.7;
+}
+
+div#photoindex div.photocategory img:hover ~ h1 {
+    visibility: visible;
+}
+
+div#photo ul {
+    list-style: none;
+    padding: 0 2em;
+}
+
+div#photo ul li {
+    float: left;
+    padding: 1px;
+}
+
+div#photo img {
+    width: 25em;
+}
+
+div.after {
+    clear: both;
+    padding: 3%;
 }
 
 /* This is way too hacky! Please find a way to do it properly! */
 div.breaker {
     width: 100%;
     background: #777777;
-    padding-top: 7%;
-    padding-bottom: 7%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     margin: 0 0 0 0;
 }
 
@@ -270,4 +291,9 @@ footer a:hover {
 
 span.cc {
     font: 1.3em creativecommons;
+}
+
+@media (min-width: 1250px) {
+  body { font-size: 1vw; }
+  code { font-size: 0.8vw; }
 }
