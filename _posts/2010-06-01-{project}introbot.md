@@ -12,4 +12,6 @@ Final exercise of the final year Intelligent Robotics module. We had to work in 
 
 Winner of the "Best Robot" prize.
 
-You can find the project on [GitHub](https://github.com/heuristicus/int-robot).
+You can find the project on
+[GitHub](https://github.com/heuristicus/int-robot). A report summarising the
+project can be found [here](https://github.com/heuristicus/int-robot/blob/master/docs/report/report.pdf?raw=true).
