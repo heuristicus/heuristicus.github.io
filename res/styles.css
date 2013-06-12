@@ -185,6 +185,7 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 
 .postcontent img {
     max-width: 100%;
+    max-height: 30%;
 }
 
 pre {
@@ -279,6 +280,16 @@ div.after {
 
 div.postafter {
     clear: both;
+}
+
+div.comments {
+    padding: 6%;
+}
+
+div.photocomments {
+    margin: 0 auto;
+    padding: 6%;
+    width: 80%;
 }
 
 /* This is way too hacky! Please find a way to do it properly! */
