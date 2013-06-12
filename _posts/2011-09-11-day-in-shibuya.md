@@ -2,12 +2,10 @@
 layout: post
 title: Day in Shibuya
 tags:
-- Japan
+- japan
 - optimism
-- parade
 - photo
-- Photo
-- yoyogi
+- shibuya
 status: publish
 type: post
 published: true

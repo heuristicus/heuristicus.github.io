@@ -12,8 +12,11 @@ co-founded the
 spent my third year at Keio university in Tokyo, Japan, where I studied Japanese
 language. I currently speak English, Polish and Japanese fluently, and have
 basic knowledge of French, German and Swedish. I learn human languages for
-fun. I'm also fluent in C, Java and Python. I learn machine languages
-whenever I need them.
+fun. I'm also fluent in C, Java and Python. I learn machine languages whenever I
+need them. You can find a printable CV
+[here](https://github.com/heuristicus/cv/blob/master/cv.pdf?raw=true), or for a
+web-based version, see my
+[LinkedIn profile](http://www.linkedin.com/profile/view?id=236650527).
 		
 ## Where am I?
 You can find me at various places on the internet, including:
@@ -25,8 +28,6 @@ You can find me at various places on the internet, including:
   presentable photography.
 - [Last.fm](http://www.last.fm/user/nitre) -- It doesn't count if you don't
   scrobble it.
-- [LinkedIn](http://www.linkedin.com/profile/view?id=236650527) -- For
-  work-related contact.
 
 ## Contact
 The best way to contact me is by email. If you're not a robot, then you

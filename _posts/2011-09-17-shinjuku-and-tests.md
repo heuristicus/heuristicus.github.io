@@ -1,15 +1,7 @@
 ---
 layout: post
 title: Shinjuku and Tests
-tags:
-- choice
-- Japan
-- japan
-- japanese
-- photo
-- shibuya
-- shinjuku
-- test
+tags: japan language photo shibuya shinjuku test
 status: publish
 type: post
 published: true

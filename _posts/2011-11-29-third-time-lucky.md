@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Third time lucky
+title: Third Time Lucky
 tags:
 - food
 - japan

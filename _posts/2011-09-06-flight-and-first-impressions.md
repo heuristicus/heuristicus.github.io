@@ -1,10 +1,7 @@
 ---
 layout: post
 title: Flight and First impressions
-tags:
-- impressions
-- Japan
-- japan
+tags: food photo japan travel shibuya
 status: publish
 type: post
 published: true

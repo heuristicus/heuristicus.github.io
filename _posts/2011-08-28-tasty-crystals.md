@@ -3,7 +3,6 @@ layout: post
 title: Tasty crystals
 tags:
 - food
-- Random
 - random
 status: publish
 type: post

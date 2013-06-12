@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Some imaginative title
+title: The First Shift
 tags:
 - food
 - japan

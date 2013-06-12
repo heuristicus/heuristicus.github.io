@@ -11,8 +11,27 @@ comments: true
     {{ content }}
   </div>
   <div class="posttags">
+    {% if page.tags %}
     Filed under {{ page.tags | array_to_sentence_string }}.
+    {% endif %}
   </div>
+  <div id="page-navigation"> 
+    <div class="left"> 
+      <!--Don't make a link to the previous "post" if it's type isn't post - have photo and project posts as well, which come before the first post-->
+      {% if page.previous.type == "post" %}
+      {% if page.previous.url %}
+      Previous: <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">{{page.previous.title}}</a>
+      {% endif %}
+      {% endif %}
+    </div>
+
+    <div class="right">
+      {% if page.next.url %}
+      Next: <a href="{{page.next.url}}" title="next Post: {{page.next.title}}">{{page.next.title}}</a> 
+      {% endif %}
+    </div> 
+  </div>
+  <div class="postafter"></div>
 </section>
 
 {% if page.comments %}
@@ -20,3 +39,5 @@ comments: true
   
 </div>
 {% endif %}
+
+

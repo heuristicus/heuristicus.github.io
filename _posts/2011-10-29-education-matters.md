@@ -1,15 +1,7 @@
 ---
 layout: post
 title: Education Matters
-tags:
-- Education
-- education
-- feynman
-- Japan
-- japanese
-- kanji
-- learning
-- memorisation
+tags: education feynman japan language kanji
 status: publish
 type: post
 published: true

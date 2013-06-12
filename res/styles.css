@@ -184,13 +184,7 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 }
 
 .postcontent img {
-    display: inline;
-    height: 30%;
-    width: auto;
     max-width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    vertical-align: middle;
 }
 
 pre {
@@ -266,9 +260,25 @@ div#photo img {
     min-height: 16.7em;
 }
 
+div#page-navigation {
+    padding-top: 5%;
+}
+
+div#page-navigation div.right {
+    float: right;
+}
+
+div#page-navigation div.left {
+    float: left;
+}
+
 div.after {
     clear: both;
     padding: 3%;
+}
+
+div.postafter {
+    clear: both;
 }
 
 /* This is way too hacky! Please find a way to do it properly! */

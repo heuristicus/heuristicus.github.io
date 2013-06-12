@@ -1,6 +1,9 @@
 ---
 layout: post
-title: It's been a while...
+title: It's Been a While...
+tags:
+- japan
+- essay
 status: publish
 type: post
 published: true

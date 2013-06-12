@@ -1,10 +1,7 @@
 ---
 layout: post
-title: Photos
-tags:
-- photo
-- Photo
-- walking
+title: Shinjuku and the 都庁
+tags: photo shinjuku japan
 status: publish
 type: post
 published: true

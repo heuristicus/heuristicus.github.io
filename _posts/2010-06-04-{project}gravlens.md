@@ -8,6 +8,16 @@ location: The University of Birmingham
 type: project
 ---
 
-Dissertation project. I developed a system in C to automatically estimate the time delays between streams of gravitationally lensed photons. I created a photon stream simulator, using Poisson processes to model the arrival times of photons. I used a least squares method to build a baseline estimator which can be used to perform linear estimates of functions. Time delay estimation was done using this baseline estimator combined with either a numerical or probabilistic method to determine the goodness of fit between models.
+Dissertation project. I developed a system in C to automatically estimate the
+time delays between streams of gravitationally lensed photons. I created a
+photon stream simulator, using Poisson processes to model the arrival times of
+photons. I used a least squares method to build a baseline estimator which can
+be used to perform linear estimates of functions. Time delay estimation was done
+using this baseline estimator combined with either a numerical or probabilistic
+method to determine the goodness of fit between models.
 
-You can find the project on [GitHub](https://github.com/heuristicus/final-year-project).
+You can find the project on
+[GitHub](https://github.com/heuristicus/final-year-project). There is also a
+[report](https://github.com/heuristicus/final-year-project/blob/master/docs/report/report.pdf?raw=true)
+which summarises the achievements and content of the project.
+
