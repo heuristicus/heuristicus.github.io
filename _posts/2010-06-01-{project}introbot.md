@@ -25,3 +25,4 @@ You can find the project on
 [GitHub](https://github.com/heuristicus/int-robot), along with a
 [report](https://github.com/heuristicus/int-robot/blob/master/docs/report/report.pdf?raw=true)
 summarising the project.
+
