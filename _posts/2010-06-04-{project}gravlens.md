@@ -54,7 +54,7 @@ standing, and its speed would increase the closer it got. We would again notice
 a difference if we repeated the experiment for the adult and the child. The ball
 would be travelling get to the centre of the trampoline faster in the case of
 the adult. If we apply this idea to stellar objects, we find that the curvature
-actually represents $$g$$, the gravitational attraction of the object. So, high
+actually represents $g$, the gravitational attraction of the object. So, high
 curvature means high gravitational attraction, and low curvature means low
 gravitational attraction.
 
@@ -106,4 +106,3 @@ different for each image,
 
 ### Estimating the Underlying Function
 ### Finding the Time Delay
-
