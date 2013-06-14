@@ -41,7 +41,10 @@ novels and popular science books, both to maintain my language skills and to see
 things from a different cultural perspective.
 
 If I don't have my head in a book, I'm usually riding my bicycle. It's almost
-got to the point where I don't like walking because it's just too slow.
+got to the point where I don't like walking because it's just too slow. I
+sometimes take breaks by going somewhere I haven't been before and walking
+around aimlessly with my camera. You can find some examples of the sort of
+photographs I take at the [photo](/photo) pages.
 
 ## Where am I?
 You can find me at various places on the internet, including:
