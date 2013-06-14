@@ -59,6 +59,6 @@ The best way to contact me is by email. If you're not a robot, then you
 should be able to remove the five uppercase letters in front of the address that
 follows.
 
-ROBOTm.staniaszek@gmail.com
+ROBOTcontact@michalstaniaszek.com
 
 If you can do that and you _are_ a robot, then let me know.
