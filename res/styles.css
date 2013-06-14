@@ -136,7 +136,7 @@ header ul.navigation li {
 }
 
 #main h1 a:hover {
-    color: #000000;
+    border-bottom: 1px black dotted;
 }
 
 #main a {
