@@ -220,8 +220,7 @@ div.cats {
 
 div.photocategory img {
     float: left;
-    width: 29.2em;
-    min-height: 19.5em;
+    width: 49%;
     padding: 1px;
 }
 
@@ -318,6 +317,31 @@ span.cc {
     font: 1.3em creativecommons;
 }
 
+@media only screen and (max-width: 1024px) {
+    body { font-size: 1.2em; }
+    code { font-size: 1em; }
+    #main { width: 100%; }
+    header {
+	font-size: 1.6em;
+	height: 7.5em;
+	width: 80%;
+    }
+    header h1 {
+	float: none;
+	display: block;
+	margin: 1em auto 0 auto;
+	text-align: center;
+    }
+    header ul.navigation {
+	float: none;
+	margin: 1em auto 0 -2.5em;
+	display: block;
+	text-align: center;
+    }
+    header ul.navigation li {
+	display: inline;
+    }
+}
 
 @media (min-width: 1300px) {
   body { font-size: 1.2em; }
