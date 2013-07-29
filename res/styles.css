@@ -42,7 +42,7 @@
 
 body {
     font-size: 20px; /* fallback in case viewport resizing is not supported */
-    font: 1.5vw/1.5 LinuxLibertine, verdana, helvetica-neue, helvetica, arial, sans-serif;
+    font: 1.3vw/1.5 LinuxLibertine, verdana, helvetica-neue, helvetica, arial, sans-serif;
     font-weight: normal;
     font-style: normal;
     background: #777777;
@@ -198,7 +198,7 @@ pre {
 
 code {
     font-size: 16px; /* fallback in case viewport resizing is not supported */
-    font: 1.3vw/1.5 Inconsolata, monospace;
+    font: 1.0vw/1.5 Inconsolata, monospace;
 }
 
 .highlight {
@@ -318,11 +318,11 @@ span.cc {
 }
 
 @media only screen and (max-width: 1024px) {
-    body { font-size: 1.2em; }
-    code { font-size: 1em; }
+    body { font-size: 1.0em; }
+    code { font-size: 0.8em; }
     #main { width: 100%; }
     header {
-	font-size: 1.6em;
+	font-size: 1.2em;
 	height: 7.5em;
 	width: 80%;
     }
@@ -343,9 +343,9 @@ span.cc {
     }
 }
 
-@media (min-width: 1300px) {
-  body { font-size: 1.2em; }
-  code { font-size: 1em; }
-  #main { width: 50%; }
-  header { width: 50%; }
+@media (min-width: 1200px) {
+  body { font-size: 1.0em; }
+  code { font-size: 0.9em; }
+  #main { width: 65%; }
+  header { width: 65%; }
 }

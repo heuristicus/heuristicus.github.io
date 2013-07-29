@@ -8,10 +8,10 @@ location: The University of Birmingham
 type: project
 ---
 
-This was my final year dissertation project, supervised by
-[Peter Tiňo](www.cs.bham.ac.uk/pxt~). I developed a system in C to estimate the
-time delays between streams of gravitationally lensed photons. I created a
-photon stream simulator, using Poisson processes to model the arrival times of
+This was my final year dissertation project, supervised by [Peter
+Tiňo](www.cs.bham.ac.uk/pxt~). I developed a system in C to estimate the time
+delays between streams of gravitationally lensed photons. I created a photon
+stream simulator, using Poisson processes to model the arrival times of
 photons. I used a least squares method to build a baseline estimator which was
 then used to perform piecewise linear estimates of functions. Time delay
 estimation was done using this baseline estimator combined with either a
@@ -21,10 +21,13 @@ sinusoidal functions of varying frequencies and randomly generated functions. In
 most cases the kernel density estimator provided a better estimate, but the
 results were not statistically significant. The project was awarded the "Best
 Research Project" prize by the Computer Science department at the University of
-Birmingham, receiving a mark of 94%.
+Birmingham, receiving a mark of 94%, and was submitted to the 2013 [SET
+awards](http://www.setawards.org).
 
 You can find the project on
 [GitHub](https://github.com/heuristicus/final-year-project). There is also a
 lengthy
 [report](https://github.com/heuristicus/final-year-project/blob/master/docs/report/report.pdf?raw=true)
-which details all aspects of the project.
+which details all aspects of the project. Alternatively, you can read a shorter
+[summary](https://github.com/heuristicus/final-year-project/blob/master/docs/SET_summary/summary.pdf?raw=true)
+submitted for the SET awards.
