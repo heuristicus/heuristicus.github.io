@@ -5,14 +5,13 @@ title: About
 <img src="../img/face.jpg" align="right"/>
 
 My name is Michal Staniaszek. I'm a student of robotics and artificial
-intelligence currently based in Birmingham, UK. My undergraduate degree in
+intelligence currently based in Stockholm, Sweden. My undergraduate degree in
 Computer Science was completed at the University of Birmingham where I also
-co-founded the
-[Birmingham Autonomous Robotics Club](http://barcuk.github.io/index.html). I
-spent my third year at Keio university in Tokyo, Japan, where I studied Japanese
-language. From August 2013, I will be at the Royal Institute of Technology in
-Stockholm, Sweden, studying for a master's degree in Systems, Control and
-Robotics.
+co-founded the [Birmingham Autonomous Robotics
+Club](http://barcuk.github.io/index.html). I spent my third year at Keio
+university in Tokyo, Japan, where I studied Japanese language. I am currently at
+the Royal Institute of Technology in Stockholm, studying for a master's degree
+in Systems, Control and Robotics.
 
 I currently speak English, Polish and Japanese fluently, and have basic
 knowledge of French, German and Swedish. I learn natural languages for fun. I'm
