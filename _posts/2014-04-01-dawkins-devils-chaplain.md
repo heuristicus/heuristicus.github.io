@@ -1,0 +1,20 @@
+---
+layout: post
+title: Richard Dawkins - A Devil's Chaplain
+tags: book-review dawkins
+status: publish
+type: post
+published: true
+---
+
+*A Devil's Chaplain* is a collection of book reviews, newspaper contributions and various other writings of Richard Dawkins. Each chapter contains several pieces on some overarching theme, beginning with a short introduction explaining the connection between sections. As there is no central theme it's difficult to make general statements about the contents, but all of them are written in Dawkins' usual style, which I very much enjoy. While the vast majority of people these days know of him, it seems that they know little about what he's actually written, and base their opinion of him on a caricature of his position probably gleaned from some negative review of one of his two more popular books (*The God Delusion* or *The Selfish Gene*). I could write plenty more about what I think of Dawkins, but that's something for another post. This collection shows the wide range of things in which he has an interest, refuting the idea that all he does is bash God. Even with the large variety of topics, I find myself in strong agreement with many of the points made, and there was nothing which could be said to be a position that I am opposed to. A couple of the reviews of books on evolutionary theory naturally have arguments about the validity of the points made in the title being reviewed, and as a non-expert it was difficult to follow specific objections, but these made up only a small proportion of the book.
+
+The first chapter contains an essay bearing the name of the book which deals with the cruelty of nature which struck a chord with me, perhaps because it contains some counter-arguments useful as rebuttals against those of a religious persuasion who might use the beauty of nature to support their claims of a creator, forgetting that in truth nature is hardly pretty. One of the examples, also mentioned by Darwin, is a wasp which paralyses caterpillars for the express purpose of keeping them alive so that when their eggs hatch they have a living body to devour. Lovely. It is also a call for rebellion against the forces of nature which create such horrors, and a small celebration of humanity, which Dawkins expresses brilliantly:
+
+>Stand tall, Bipedal Ape. The shark may outswim you, the cheetah outrun you, the elephant outpower you, the redwood outlast you. But you have the biggest gifts of all: the gift of understanding the ruthlessly cruel process that gave us all existence; the gift of revulsion against its implications; the gift of foresight - something utterly foreign to the blundering short-term ways of natural selection - and the gift of internalising the very cosmos.
+
+Many of the pieces deal with Dawkins' well known qualms with irrationality in society, and his points are made in his usual acerbic style. As with all his work, it makes a strong case for a rational approach to life, and Dawkins is one of those whose opinions have helped shape my own approach along those same lines. It is difficult for me to see how anyone, after careful consideration of the arguments, could come to the conclusion that a different approach would somehow be better, but again, that's something for an evening with some alcoholic beverage in hand and a pub where the music isn't too loud.
+
+One of the later chapters contains some eulogies, including one for the fantastic Douglas Adams, complete with some choice paragraphs of his unique perspective on reality, which as always make you laugh, then think. The book as a whole allows a fuller view of Dawkins as a human being, and the eulogies, along with the final chapter in which is reprinted an open letter to his daughter, then aged 10, naturally have a very personal feeling.
+
+In short, an interesting smorgasbord of writings which dissect some of the irrationalities of society, describe some of the ideas behind evolutionary theory, and divulge amusing and thought provoking ideas from various corners, giving a broad view of Dawkins' personality.
