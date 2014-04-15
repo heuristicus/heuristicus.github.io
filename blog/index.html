@@ -7,20 +7,19 @@ title: Blog
   {% if post.type == "post" %}
   <section class="fullpost">
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <div class="postdate">
-      {{ post.date | date: "%b %d, %Y" }}
+    <div class="postsubhead">
+      {{ post.date | date: "%b %d, %Y" }} | 
+      {% if post.tags == empty %}
+      No tags. 
+      {% else %}
+      Tags: {{ post.tags | array_to_sentence_string }}.
+      {% endif %}
     </div>
+
     <div class="postcontent">
       {{ post.content }}
     </div>
     
-    <div class="posttags">
-      {% if post.tags == empty %}
-      No tags. 
-      {% else %}
-      Filed under {{ post.tags | array_to_sentence_string }}.
-      {% endif %}
-    </div>
   </section>
   <div class="breaker"></div>
   {% endif %}
