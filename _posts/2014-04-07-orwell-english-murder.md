@@ -1,7 +1,7 @@
 ---
 layout: post
 title: George Orwell - Decline of the English Murder
-tags: book-review orwell
+tags: book george-orwell
 status: publish
 type: post
 published: true

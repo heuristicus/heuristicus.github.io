@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Richard Dawkins - A Devil's Chaplain
-tags: book-review dawkins
+tags: book richard-dawkins
 status: publish
 type: post
 published: true

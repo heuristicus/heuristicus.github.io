@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Regularity
-tags: book-review
+tags: book
 status: publish
 type: post
 published: true

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sam Harris - Letter to a Christian Nation
-tags: book-review sam-harris
+tags: book sam-harris
 status: publish
 type: post
 published: true
