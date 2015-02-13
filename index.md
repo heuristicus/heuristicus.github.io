@@ -22,7 +22,7 @@ intelligence, machine learning and robotics. I'd like create robots with
 something that at least vaguely resembles human-level intelligence.
 
 You can find a printable CV
-[here](https://github.com/heuristicus/cv/blob/master/cv.pdf?raw=true), or for a
+[here](https://github.com/heuristicus/cv/blob/master/michal_staniaszek_cv.pdf?raw=true), or for a
 web-based version, see my [LinkedIn
 profile](http://www.linkedin.com/profile/view?id=236650527).
 
