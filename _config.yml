@@ -1,6 +1,7 @@
 ---
 permalink: pretty
-pygments: true
+highlighter: pygments
 markdown: rdiscount
+exclude: [blog, archive]
 rdiscount:
   extensions: [smart]

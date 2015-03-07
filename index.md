@@ -56,7 +56,6 @@ You can find me at various places on the internet, including:
 
 - [GitHub](https://github.com/heuristicus) -- Almost all the code I've ever
   written.
-- [Twitter](https://twitter.com/MStaniaszek) -- Rarely tweet, sometimes listen.
 - [Flickr](http://www.flickr.com/photos/mstaniaszek/) -- Some of my more
   presentable photography.
 - [Last.fm](http://www.last.fm/user/nitre) -- It doesn't count if you don't
@@ -69,4 +68,4 @@ follows.
 
 ROBOTcontact@michalstaniaszek.com
 
-If you can do that and you _are_ a robot, then let me know.
+If you can do that and you _are_ a robot, then let me know in your email.
