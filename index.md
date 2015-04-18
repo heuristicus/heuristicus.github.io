@@ -19,37 +19,14 @@ and Java, and learn new machine languages when the need arises.
 
 My academic interests lie somewhere within the fields of artificial
 intelligence, machine learning and robotics. I'd like create robots with
-something that at least vaguely resembles human-level intelligence.
+something that at least vaguely resembles human-level intelligence, but that's a
+long way in the future. For now, I want to work on systems that can make some
+sort of impact on society, however small.
 
 You can find a printable CV
 [here](https://github.com/heuristicus/cv/blob/master/michal_staniaszek_cv.pdf?raw=true), or for a
 web-based version, see my [LinkedIn
 profile](http://www.linkedin.com/profile/view?id=236650527).
-
-I spend most of my free time reading about things that I feel I don't know much
-about. I enjoy reading science fiction for its exploration of the effects of
-technological advancement on human society. I also spend a lot of time reading
-Japanese novels and popular science books, both to maintain my language skills
-and to see things from a different cultural perspective. One of my favourite
-websites is YouTube, where I find a lot of interesting stuff, but my staples are
-the [Vlogbrothers](http://www.youtube.com/user/vlogbrothers) and their side
-projects [SciShow](http://www.youtube.com/user/scishow),
-[Crash Course](http://www.youtube.com/user/crashcourse) and
-[The Brain Scoop](http://www.youtube.com/user/thebrainscoop).
-[Smarter Every Day](http://www.youtube.com/user/destinws2),
-[CGPGrey](http://www.youtube.com/user/CGPGrey),
-[Veritasium](http://www.youtube.com/user/1veritasium),
-[Numberphile](http://www.youtube.com/user/numberphile),
-[Sixty Symbols](http://www.youtube.com/user/sixtysymbols),
-[Periodic Videos](http://www.youtube.com/user/periodicvideos) and
-[Vsauce](http://www.youtube.com/user/vsauce) also provide me with much
-entertainment, insight and food for thought.
-
-If I don't have my head in a book, or my eyes on YouTube, I'm usually riding my
-bicycle. It's almost got to the point where I don't like walking because it's
-just too slow. I sometimes take breaks by going somewhere I haven't been before
-and walking around aimlessly with my camera. You can find some examples of the
-sort of photographs I take at the [photo](/photo) pages.
 
 ## Where am I?
 You can find me at various places on the internet, including:
