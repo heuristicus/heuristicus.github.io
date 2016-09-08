@@ -1,7 +1,5 @@
 ---
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 exclude: [blog, archive]
-rdiscount:
-  extensions: [smart]
