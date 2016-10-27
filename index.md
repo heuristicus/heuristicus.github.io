@@ -15,7 +15,9 @@ Birmingham in the UK. I spent my third year at Keio university in Tokyo, Japan,
 where I studied Japanese. I completed my master's degree in Systems, Control and
 Robotics at the Royal Institute of Technology in Stockholm, Sweden. Since then,
 I interned for 6 months at Yujin Robot in South Korea, and was briefly a PhD
-candidate at Fraunhofer IPA.
+candidate at Fraunhofer IPA. I'm currently a Research Associate at the
+University of Birmingham, working on knowledge transfer for the
+[STRANDS](http://strands.acin.tuwien.ac.at) project.
 
 My main language is English, but I also speak Polish and Japanese well, and have
 some basic knowledge of German, Swedish and Korean. I learn natural languages
